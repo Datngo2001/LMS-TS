@@ -1,0 +1,3 @@
+mirgrate binh thuong: dotenv -e .env.development.local -- npx prisma migrate dev
+reset and migrate: dotenv -e .env.development.local -- npx prisma migrate reset
+sau khi migrate hay sua doi scheme chay: dotenv -e .env.development.local -- npx prisma generate
